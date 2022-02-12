@@ -8,7 +8,7 @@ apt install shadowsocks-libev -y
 
 # 2. 配置
 
-这次使用的是 ubuntu 20.04 ，装好 `shadowsocks-libev` 之后 `shadowsocks-libev.service` 就是 running && enabled 的只需要编辑 `/etc/shadowsocks-libev/config.json` 就可以：
+这次使用的是 ubuntu 20.04 ，装好 `shadowsocks-libev` 之后 `shadowsocks-libev.service` 就是 running && enabled 的，只需要编辑 `/etc/shadowsocks-libev/config.json`：
 
 ```json
 {
@@ -26,9 +26,15 @@ apt install shadowsocks-libev -y
 * 关闭 `fast_open` 是因为有人发现 google chromiun 移除了 TCP Fast Open 的相关源码，貌似是因为 TCP Fast Open 被 middleboxes 拖慢，并不会真正实现加速
 * 密码最好用一个高强度的密码，据说可以缓解针对 `shadowsocks` 的 Partitioning Oracle 攻击，没有头绪的话可以试着用 openssl 生成一个随机密码: `openssl rand -base64 16`
 
+写好了 config 之后记得 restart 一下
+
+```shell
+systemctl restart shadowsocks-libev.service
+```
+
 # 3. BBR
 
-安装好应该就可以用了，测一下速:
+这时应该就可以用了，测一下速:
 
 ![](../imgs/rpi-ss-deploy-01.png)
 
