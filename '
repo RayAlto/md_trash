@@ -1,0 +1,11 @@
+# 开题报告
+
+题目：基于 REST 架构的跨平台即时通信系统的设计与实现
+
+> - [REST](https://en.wikipedia.org/wiki/Representational_state_transfer "Representational state transfer - Wikipedia"): 一种软件架构风格。
+
+## 课题的作用及意义
+
+REST 是 Roy Thomas Fielding 博士于 2000 年在他的博士论文中提出来的一种万维网软件架构风格，目的是便于不同的软件或程序在网络（例如互联网）中互相传递信息。 REST 是跟基于 HTTP 之上而确定的一组约束和属性，是一种设计提供万维网络服务的软件构建风格。符合或兼容于这种架构风格（简称为 REST 或 RESTful ）的网络服务，允许客户端发出以 URI 访问和操作网络资源的请求，而与预先定义好的无状态操作集一致化。因此 REST 提供了在互联网络的计算机之间，彼此资源可交互使用的协作性质。相对于其他种类的网络服务，例如 SOAP 网络服务，则是以本身所定义的操作集，来访问网络上的资源。
+
+目前在三种主流的网络服务实现方案中，因为 REST 模式于复杂的 SOAP 和 XML-RPC 相比更加简洁，越来越多的网络服务开始采用 REST 风格设计和实现。例如， Amazon.com 提供接近 REST 风格的网络服务执行图书查询； Yahoo 提供的网络服务也是 REST 风格的。
