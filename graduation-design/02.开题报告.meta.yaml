@@ -1,0 +1,14 @@
+documentclass: extarticle
+geometry: "left=1.91cm,right=1.91cm,top=2.54cm,bottom=2.54cm"
+fontsize: 12pt
+CJKmainfont: Source Han Sans
+CJKoptions:
+  - Scale=0.9
+header-includes: |
+  \hypersetup{pdftex,
+          pdfauthor={RayAlto},
+          pdftitle={基于REST架构的跨平台即时通信系统的设计与实现},
+          pdfsubject={开题报告},
+          pdfkeywords={REST, Instant Messaging, Cross Platform},
+          pdfproducer={xelatex},
+          pdfcreator={latex-rayalto}}
