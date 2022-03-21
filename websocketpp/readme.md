@@ -16,7 +16,7 @@ while(lws_service(ws_context, 0) >= 0) {
 context_info.options = LWS_SERVER_OPTION_DO_SSL_GLOBAL_INIT;
 ```
 
-让 libwebsockets 支持 SSL ，我寻思我这种程度的菜逼去封装 OpenSSL 也不至于整出这么多 still reachable 啊。哦对了，我如果要发送数据的话需要向它提供一个 `unsigned char*` 和 `size_t len` ，我寻思挺正常的，从 `std::string` 里 `copy` 一个出来就好了，简单写了一个、 `make` 、运行一气呵成，然后就是一个 `segmemtation fault` ，我不理解， libwebsockets 自带的、牛逼的、带颜色的、无比详细的、默认启用的 logger 只打印了一堆我不 give 任何 fuck 的 shit ，完全没有给出任何有用信息，我以为是 `std::string` 的锅，直接搓了一个 `unsigned char*` 传进去就一切正常了，我以为我对了，但这个正常也是概率性的，有时还是会 `segmemtation fault` ，我用了一下午翻它们的文档，终于找到了问题所在，它们规定我的 `unsigned char*` 前面必须有它们规定长度的多余空间，就像 `0000000000mydata` 这样，而且传入的 `unsigned char*` 必须从 `mydata` 开始，而不是从头开始，我不能接受，这样规定是能方便我还是能方便 libwebsockets ？
+让 libwebsockets 支持 SSL ，我寻思我这种程度的菜逼去封装 OpenSSL 也不至于整出这么多 still reachable 啊。哦对了，我如果要发送数据的话需要向它提供一个 `unsigned char*` 和 `size_t len` ，我寻思挺正常的，从 `std::string` 里 `copy` 一个出来就好了，简单写了一个、 `make` 、运行一气呵成，然后就是一个 `segmentation fault` ，我不理解， libwebsockets 自带的、牛逼的、带颜色的、无比详细的、默认启用的 logger 只打印了一堆我不 give 任何 fuck 的 shit ，完全没有给出任何有用信息，我以为是 `std::string` 的锅，直接搓了一个 `unsigned char*` 传进去就一切正常了，我以为我对了，但这个正常也是概率性的，有时还是会 `segmentation fault` ，我用了一下午翻它们的文档，终于找到了问题所在，它们规定我的 `unsigned char*` 前面必须有它们规定长度的多余空间，就像 `0000000000mydata` 这样，而且传入的 `unsigned char*` 必须从 `mydata` 开始，而不是从头开始，我不能接受，这样规定是能方便我还是能方便 libwebsockets ？
 
 我不明白，可能我实在太菜逼了以至于我看不懂他们的文档和“minimal example（开篇定义一堆 struct ， callback 要放在一个奇妙的 struct 里，然后还把这个结构体放在了另一个 source file 里并美其名曰 plugin ，还要用 define 把它变成宏在主 souce file 里用）”，反正学 libwebsockets 这三天我是痛苦的，最后整出了个薛定谔的猫，my disappointment is immeasurable and my day is ruined。
 
