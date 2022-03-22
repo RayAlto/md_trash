@@ -16,3 +16,6 @@
     1. [01](./math/近世代数/01.md)
 - [websocketpp](./websocketpp)
   1. [客户端示例教程](./websocketpp/tutorial-utility-client.md)
+- [现代化的 C++](./modern-cpp)
+  1. [智能指针](./modern-cpp/01.智能指针.md)
+  2. [转发&移动](./modern-cpp/02.转发和移动.md)
