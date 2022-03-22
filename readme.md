@@ -3,8 +3,8 @@
 我的弱智言论都在这里
 
 - [树梅派相关](./raspberrypi)
-  1. [部署 shadowsocks 服务器](./raspberrypi/部署一个能用的shadowsocks服务器.md)
-  1. [透明代理](./raspberrypi/透明代理.md)
+  1. [部署 shadowsocks 服务器](./raspberrypi/01.部署一个能用的shadowsocks服务器.md)
+  1. [透明代理](./raspberrypi/02.透明代理.md)
 - [毕业设计](./graduation-design)
   1. [论文翻译](./graduation-design/01.论文翻译.md)
   1. [开题报告](./graduation-design/02.开题报告.md)
