@@ -19,6 +19,7 @@
 - [现代化的 C++](./modern-cpp)
   1. [智能指针](./modern-cpp/01.智能指针.md)
   1. [转发&移动](./modern-cpp/02.转发和移动.md)
+  1. [PIMPL](./modern-cpp/03.pimpl.md)
 - [KVM/QEMU](./kvm)
   1. [基本的安装](./kvm/01.安装.md)
 - [libuv](./libuv)
