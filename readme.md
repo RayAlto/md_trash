@@ -32,3 +32,6 @@
   1. [实用工具](./gtkmm4/03.实用工具.md)
 - [OpenSSL](./openssl)
   1. [迪菲-赫尔曼密钥交换](./openssl/01.DH-key-exchange.md)
+  1. [SHA-256](./openssl/02.SHA-256.md)
+  1. [生成伪随机数据](./openssl/03.random-bytes.md)
+  1. [AES-256](./openssl/04.AES-256.md)
