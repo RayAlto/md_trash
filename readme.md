@@ -30,6 +30,8 @@
   1. [带图片的按钮](./gtkmm4/01.带图片的按钮.md)
   1. [一些常见的组件](./gtkmm4/02.一些常见的组件.md)
   1. [实用工具](./gtkmm4/03.实用工具.md)
+  1. [设置样式](./gtkmm4/04.设置样式.md)
+  1. [把资源文件编进代码](./gtkmm4/05.把资源文件编进代码.md)
 - [OpenSSL](./openssl)
   1. [迪菲-赫尔曼密钥交换](./openssl/01.DH-key-exchange.md)
   1. [SHA-256](./openssl/02.SHA-256.md)
