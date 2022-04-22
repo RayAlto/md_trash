@@ -32,6 +32,7 @@
   1. [实用工具](./gtkmm4/03.实用工具.md)
   1. [设置样式](./gtkmm4/04.设置样式.md)
   1. [把资源文件编进代码](./gtkmm4/05.把资源文件编进代码.md)
+  1. [更银杏化的启动器](./gtkmm4/06.更银杏化的启动器.md)
 - [OpenSSL](./openssl)
   1. [迪菲-赫尔曼密钥交换](./openssl/01.DH-key-exchange.md)
   1. [SHA-256](./openssl/02.SHA-256.md)
