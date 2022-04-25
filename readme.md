@@ -39,6 +39,7 @@
   1. [SHA-256](./openssl/02.SHA-256.md)
   1. [生成伪随机数据](./openssl/03.random-bytes.md)
   1. [AES-256](./openssl/04.AES-256.md)
+  1. [Base64](./openssl/05.Base64.md)
 - [弱智问题](./dumb-questions)
   1. [网络相关](./dumb-questions/01.network.md)
   1. [弹出菜单的逻辑](./dumb-questions/02.popup.md)
