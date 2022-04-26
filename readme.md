@@ -43,3 +43,11 @@
 - [弱智问题](./dumb-questions)
   1. [网络相关](./dumb-questions/01.network.md)
   1. [弹出菜单的逻辑](./dumb-questions/02.popup.md)
+- [QR 码](./qr-code)
+  1. [数据分析](./qr-code/01.data-analysis.md)
+  1. [数据编码](./qr-code/02.data-encoding.md)
+  1. [生成纠错码](./qr-code/03.error-correction-coding.md)
+  1. ...
+  1. [字符容量参考表格](./qr-code/91.character-capacities.md)
+  1. [数字字母模式字符值参考表](./qr-code/92.alphanumeric-table.md)
+  1. [纠错相关信息参考表](./qr-code/93.error-correction-table.md)
