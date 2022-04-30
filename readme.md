@@ -2,6 +2,7 @@
 
 我的弱智言论都在这里
 
+- [AdBlock 自定义规则](./adblock)
 - [树梅派相关](./raspberrypi)
   1. [部署 shadowsocks 服务器](./raspberrypi/01.部署一个能用的shadowsocks服务器.md)
   1. [透明代理](./raspberrypi/02.透明代理.md)
