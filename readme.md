@@ -55,3 +55,6 @@
   1. [字符容量参考表格](./qr-code/91.character-capacities.md)
   1. [数字字母模式字符值参考表](./qr-code/92.alphanumeric-table.md)
   1. [纠错相关信息参考表](./qr-code/93.error-correction-table.md)
+- [SQLite3](./sqlite3)
+  1. [命令行工具](./sqlite3/01.命令行工具.md)
+  1. [SQL 语句](./sqlite3/02.SQL语句.md)
