@@ -58,3 +58,4 @@
 - [SQLite3](./sqlite3)
   1. [命令行工具](./sqlite3/01.命令行工具.md)
   1. [SQL 语句](./sqlite3/02.SQL语句.md)
+  1. [C API](./sqlite3/03.C-API.md)
