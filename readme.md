@@ -63,5 +63,7 @@
 - [Linux](./linux)
   1. [ArchLinux + Swaywm](./linux/01.archlinux.sway.installation.md)
   1. [旋转屏幕](./linux/02.rotate_screen.md)
+  1. [ArchLinux + i3wm](./linux/03.archlinux.i3.installation.md)
+  1. [多屏幕时触摸屏的区域匹配问题](./linux/04.touchscreen.map.md)
 - [Windows](./windows)
   1. [Linux 下构建 Windows ISO](./windows/01.uup_in_linux.md)
