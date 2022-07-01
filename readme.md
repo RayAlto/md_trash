@@ -69,3 +69,5 @@
   1. [Linux 下构建 Windows ISO](./windows/01.uup_in_linux.md)
 - [Tmux](./tmux)
   1. [学习笔记 01](./tmux/01.tutorial.md)
+- [Git](./git)
+  1. [学习笔记 01](./git/01.note.md)
