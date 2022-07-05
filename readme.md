@@ -75,3 +75,5 @@
 - [Makefile](./makefile)
   1. [学习笔记 01](./makefile/01.note.md)
   1. [学习笔记 02](./makefile/02.note.md)
+- [Linux 汇编](./linux-assembly)
+  1. [学习笔记 01](./linux-assembly/01.note.md)
