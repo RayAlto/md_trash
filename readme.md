@@ -80,3 +80,5 @@
 - [LeetCode 笔记](./leetcode)
   1. [学习笔记 01 二分查找](./leetcode/01.note.md)
   1. [学习笔记 02 双指针](./leetcode/02.note.md)
+- [Algorithms 学习笔记](./algorithm)
+  1. [学习笔记 01](./algorithm/01.note.md)
