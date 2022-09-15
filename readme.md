@@ -84,3 +84,4 @@
   1. [学习笔记 01](./algorithm/01.note.md)
 - [Python asyncio 学习笔记](./python-asyncio)
   1. [学习笔记 01](./python-asyncio/01.note.md)
+  1. [学习笔记 02](./python-asyncio/02.note.md)
