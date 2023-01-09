@@ -63,6 +63,7 @@
   1. [多屏幕时触摸屏的区域匹配问题](./linux/04.touchscreen.map.md)
   1. [高分屏相关问题](./linux/05.hidpi.md)
   1. [双系统相关问题](./linux/06.dual.boot.md)
+  1. [桥接网络](./linux/07.bridged.network.md)
 - [Windows](./windows)
   1. [Linux 下构建 Windows ISO](./windows/01.uup_in_linux.md)
 - [Tmux](./tmux)
