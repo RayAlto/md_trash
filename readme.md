@@ -65,6 +65,7 @@
   1. [高分屏相关问题](./linux/05.hidpi.md)
   1. [双系统相关问题](./linux/06.dual.boot.md)
   1. [桥接网络](./linux/07.bridged.network.md)
+  1. [配置无线接入点](./linux/08.hostapd.md)
 - [Windows](./windows)
   1. [Linux 下构建 Windows ISO](./windows/01.uup_in_linux.md)
 - [Tmux](./tmux)
