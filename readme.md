@@ -90,3 +90,4 @@
   1. [从 Google Chrome 迁移到 Firefox](./firefox/01.note.md)
 - [FFmpeg 笔记](./ffmpeg)
   1. [剪一个铃声](./ffmpeg/01.make.ringtone.md)
+  1. [给音频加上封面](./ffmpeg/02.add.cover.to.flac.md)
