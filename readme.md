@@ -68,6 +68,7 @@
   1. [配置无线接入点](./linux/08.hostapd.md)
 - [Windows](./windows)
   1. [Linux 下构建 Windows ISO](./windows/01.uup_in_linux.md)
+  1. [奇怪的文件编码](./windows/02.encoding.md)
 - [Tmux](./tmux)
   1. [学习笔记 01](./tmux/01.tutorial.md)
 - [Git](./git)
