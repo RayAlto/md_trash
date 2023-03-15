@@ -45,6 +45,7 @@
   1. [网络相关](./dumb-questions/01.network.md)
   1. [程序逻辑相关](./dumb-questions/02.program_logic.md)
   1. [C++](./dumb-questions/03.cpp.md)
+  1. [换行符](./dumb-questions/04.line.separator.md)
 - [QR 码](./qr-code)
   1. [数据分析](./qr-code/01.data-analysis.md)
   1. [数据编码](./qr-code/02.data-encoding.md)
