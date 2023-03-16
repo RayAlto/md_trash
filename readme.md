@@ -19,6 +19,7 @@
   1. [转发&移动](./modern-cpp/02.转发和移动.md)
   1. [PIMPL](./modern-cpp/03.pimpl.md)
   1. [`std::variant`](./modern-cpp/04.variant.md)
+  1. [`std::future`](./modern-cpp/05.future.md)
 - [KVM/QEMU](./kvm)
   1. [基本的安装](./kvm/01.安装.md)
 - [libuv](./libuv)
