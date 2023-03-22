@@ -1,5 +1,7 @@
 # Markdown Trash
 
+> 新的博客建好了，所以以后应该都会去[这里](https://www.rayalto.pro)写。
+
 我的弱智言论都在这里
 
 - [uBlock 规则](./ublock)
